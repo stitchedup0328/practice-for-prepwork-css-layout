@@ -1,0 +1,76 @@
+body {
+    position: absolute;
+    display: flex;
+    padding-top: 100px;
+
+    /* height: 400px; */
+    /* width: 600px;     */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    background-color: white;
+    color: black;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.status-date {
+    display: flex;
+    /* padding-bottom: 50px; */
+    /* position: relative; */
+    /* height: 5px; */
+    width: 260px;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-rows: 60px; */
+    /* justify-content: space-between; */
+    /* justify-items: space-around; */
+;
+}
+
+fieldset {
+border: 1px solid black;
+padding-left: 150px;
+padding-right: 150px;
+/* align-content: space-around; */
+}
+
+legend {
+border: 1px solid black;
+}
+
+div {
+    display:grid;
+    /* display: flex; */
+    position: relative;
+    width: 300px;
+    /* grid-template-rows: 200px 2; */
+    text-align: center;
+    justify-content: space-around;
+}
+
+.buttons1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.check-boxes {
+    position: relative;
+    display: flex;
+    padding-top: 1px;
+    font-size: large;
+/*     grid-template-columns: 30px 30px 30px;
+    grid-template-rows: 1; */
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content:space-around;
+    /* align-content: center;    */
+    /* justify-self: center; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* grid-template-columns: 10px 40px 10px 40px 10px; */
+    /* grid-template-rows: 100px 100px; */
+}
